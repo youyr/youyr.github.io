@@ -18,10 +18,6 @@ tags:
 这里绝对路径表示JetbrainsCrack-2.8-release-enc.jar所在位置，如果该jar包不是在D盘根目录，这里写上你所在该jar包的位置
 
 
-
-
-
-
 4.重启软件，在出现avtive code选择界面时
 
 添加如下代码
