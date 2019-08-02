@@ -12,7 +12,7 @@ github_repo: "https://github.com/youyr/youyr.github.io" # you code repository
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "最美的遇见就是你进入了我的博客"
-# sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/index2.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
