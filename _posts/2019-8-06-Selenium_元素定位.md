@@ -43,10 +43,8 @@ tags:
 <p>这种定位是对link的一个补充，用来定位长的文本链接的，所以就不解释了
 用法如下：</p>
 <p>find_element_by_partail_link_text()</p>
-
- <p style="font-size:20px;color:green">上面的几种定位方法比较简单，但是一般用的很少，因为定位不准，所以比较推荐下面的两种定位方法。</p>
- <span style="color:green;font-size:20px">7、xpath定位</span>
-  <p>&nbsp;&nbsp;&nbsp;&nbsp;XPath 是一门在 XML 文档中查找信息的语言。使用路径表达式来选取 XML 文档中的节点或者节点集。xpath可以直接在浏览器上复制路径，也可以自己写，自己写的话安装一下浏览器插件，chrome的插件是XPath Helper，其他浏览器的自行搜索，另外Xpath的学习建议去搜索一下网上的教程，特别详细。
+<span style="color:green;font-size:20px">7、xpath定位</span>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;XPath 是一门在 XML 文档中查找信息的语言。使用路径表达式来选取 XML 文档中的节点或者节点集。xpath可以直接在浏览器上复制路径，也可以自己写，自己写的话安装一下浏览器插件，chrome的插件是XPath Helper，其他浏览器的自行搜索，另外Xpath的学习建议去搜索一下网上的教程，特别详细。
 用法如下：</p>
 <p>find_element_by_xpath(//*[@id="kw"])（里面写xpath的路径表达式）</p>
 
