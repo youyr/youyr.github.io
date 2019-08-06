@@ -10,7 +10,7 @@ tags:
     - selenium
 ---
 
-<h5>&nbsp;&nbsp;&nbsp;&nbsp;通常来说，我们如果想要操作一个元素，那首先就得找到这个元素的位置，那么如何找到这些元素？</h5>
+<p style="font-size:20px;color:green">&nbsp;&nbsp;&nbsp;&nbsp;通常来说，我们如果想要操作一个元素，那首先就得找到这个元素的位置，那么如何找到这些元素？</p>
 <span>webDriver提供了八种定位元素的方法，在python中，所对应的方法如下：</span>
 
 <span style="color:green;font-size:20px">1、Id定位</span>
@@ -34,8 +34,8 @@ tags:
 <p>find_element_by_tag_name()方法通过元素的tag name(标签名)来定位</p>
 
 <span style="color:green;font-size:20px">5、link定位</span>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;link是专门用来定位文本链接的。比如下面这种链接</p>
-    <p>(a href="http://news.baidu.com" target="_blank" class="mnav">新闻</a>)用法如下：</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;link是专门用来定位文本链接的。比如下面这种链接</p>
+<p>(a href="http://news.baidu.com" target="_blank" class="mnav">新闻</a>)用法如下：</p>
 <p>find_element_by_link_text(“新闻”)</p>
 <p>find_element_by_link_text()方法通过链接标签之间的文本来定位元素</p>
 
@@ -44,7 +44,7 @@ tags:
 用法如下：</p>
 <p>find_element_by_partail_link_text()</p>
 
- <h5>上面的几种定位方法比较简单，但是一般用的很少，因为定位不准，所以比较推荐下面的两种定位方法。</h5>
+ <p style="font-size:20px;color:green">上面的几种定位方法比较简单，但是一般用的很少，因为定位不准，所以比较推荐下面的两种定位方法。</p>
  <span style="color:green;font-size:20px">7、xpath定位</span>
   <p>&nbsp;&nbsp;&nbsp;&nbsp;XPath 是一门在 XML 文档中查找信息的语言。使用路径表达式来选取 XML 文档中的节点或者节点集。xpath可以直接在浏览器上复制路径，也可以自己写，自己写的话安装一下浏览器插件，chrome的插件是XPath Helper，其他浏览器的自行搜索，另外Xpath的学习建议去搜索一下网上的教程，特别详细。
 用法如下：</p>
