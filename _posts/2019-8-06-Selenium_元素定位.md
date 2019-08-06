@@ -14,7 +14,7 @@ tags:
 <span>webDriver提供了八种定位元素的方法，在python中，所对应的方法如下：</span>
 
 <span style="color:green;font-size:20px">1、Id定位</span>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;学过css的应该知道，如果想要为html元素设置样式，一般需要在元素中设置id和class选择器。一般id选择器用#号来定义，id属性一般是唯一的，有点类似于我们的身份证号。所以可以根据id属性来查找到对应的元素。例如，查找百度页面“百度一下”这个按钮，用法如下：</p>
+ <p>&nbsp;&nbsp;&nbsp;&nbsp;学过css的应该知道，如果想要为html元素设置样式，一般需要在元素中设置id和class选择器。一般id选择器用#号来定义，id属性一般是唯一的，有点类似于我们的身份证号。所以可以根据id属性来查找到对应的元素。例如，查找百度页面“百度一下”这个按钮，用法如下：</p>
  <p>find_element_by_id(“su”)</p>
  <p>find_element_by_id()方法通过id属性来定位元素</p>
 
@@ -29,13 +29,13 @@ tags:
 <p>find_element_by_name()方法通过name属性来定位元素，如果元素中没有name属性，那么不可以用name来定位。</p>
 
 <span style="color:green;font-size:20px">4、tag定位 </span>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;tag是标签的意思，它代表前端的标签，比如input,li,a,img等标签。但是一般一个页面中含有大量相同的标签，所以用tag来定位到元素的概率是极低的，一般不推荐用。用法如下：</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;tag是标签的意思，它代表前端的标签，比如input,li,a,img等标签。但是一般一个页面中含有大量相同的标签，所以用tag来定位到元素的概率是极低的，一般不推荐用。用法如下：</p>
 <p>find_element_by_tag_name(“a”)</p>
 <p>find_element_by_tag_name()方法通过元素的tag name(标签名)来定位</p>
 
 <span style="color:green;font-size:20px">5、link定位</span>
     <p>&nbsp;&nbsp;&nbsp;&nbsp;link是专门用来定位文本链接的。比如下面这种链接</p>
-    <p>(<a href="http://news.baidu.com" target="_blank" class="mnav">新闻</a>)用法如下：</p>
+    <p>(a href="http://news.baidu.com" target="_blank" class="mnav">新闻</a>)用法如下：</p>
 <p>find_element_by_link_text(“新闻”)</p>
 <p>find_element_by_link_text()方法通过链接标签之间的文本来定位元素</p>
 
@@ -53,16 +53,16 @@ tags:
 <span style="color:green;font-size:20px">8、css定位</span>
 <p>find_element_by_css_selector()方法用于css语言定位元素</p>
 
-<p>1)通过class属性定位</p>
+<p style="color:green">1)通过class属性定位</p>
 <p>find_element_by_css_selector(“.s_ipt”)</p>
-<p>2)通过id属性定位</p>
+<p style="color:green">2)通过id属性定位</p>
 <p>find_element_by_css_selector(“#su”)</p>
-<p>3)通过标签名定位</p>
+<p style="color:green">3)通过标签名定位</p>
 <p>find_element_by_css_selector(“input”)</p>
-<p>4)通过父子关系定位</p>
+<p style="color:green">4)通过父子关系定位</p>
 <p>find_element_by_css_selector(“ul>li”)</p>
-<p>5)通过属性定位</p>
+<p style="color:green">5)通过属性定位</p>
 <p>find_element_by_css_selector(“[name=’kw’]”)</p>
-<p>6)组合定位</p>
+<p style="color:green">6)组合定位</p>
 <p>find_element_by_css_selector(“div.site-heading>span.subheading”)</p>
 <p>（class名为site-heading的div下面的class名为subheading的span标签）</p>
