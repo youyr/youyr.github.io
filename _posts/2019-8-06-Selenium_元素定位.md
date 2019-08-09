@@ -4,7 +4,7 @@ title:      Selenium_元素定位
 subtitle:   Selenium 元素定位
 date:       2019-8-06
 author:     youyr
-header-img: img/py2.jpg
+header-img: img/sel1.jpg
 catalog: true
 tags:
     - selenium
